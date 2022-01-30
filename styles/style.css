@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+li {
+    list-style: none;
+}
+
+table {
+    margin: 10px;
+}
+
+.mainRegister{
+    width: 250px;
+}
