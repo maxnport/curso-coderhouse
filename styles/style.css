@@ -7,7 +7,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #72638F;
+    background-color: #22356D;
     flex-wrap: wrap;
     align-items: center;
     position: sticky;
@@ -24,7 +24,7 @@ header {
 
 .header__logincart--login{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -71,10 +71,10 @@ header {
 
 .header__categories li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 25px;
     font-weight: bold;
-    /* background-color: #6e9cff; */
+    background-color: #22356D;
     padding: 5%;
     border-radius: 15px;
 }
@@ -82,7 +82,7 @@ header {
 .section__destacados{
     text-align: center;
     width: 90%;
-    border: 2px #292125 solid;
+    border: 2px #22356D solid;
     margin: 0 auto;
     margin-top: 15px;
     border-radius: 5px;
@@ -92,11 +92,11 @@ header {
     color: white;
     height: 60px;
     padding-top: 30px;
-    background-color: #292125;
+    background-color: #22356D;
 }
 
 .section__destacados li a img{
-    border: 4px #292125 solid;
+    border: 4px #22356D solid;
     border-radius: 10px;
 }
 
@@ -128,8 +128,8 @@ main{
 .section__variedad--titulos li a{
     text-decoration: none;
     font-weight: bold;
-    background-color: #2E263E;
-    color: #F3F1F2;
+    background-color: #69DFE2;
+    color: black;
     padding: 3%;
     border-radius: 5px;
 }
@@ -145,7 +145,7 @@ main{
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    border: 2px #292125 solid;
+    border: 2px #69DFE2 solid;
 }
 
 footer{
@@ -170,7 +170,7 @@ footer{
 
 .footer__footnav li a{
     text-decoration: none;
-    color: #292125;
+    color: #22356D;
 }
 
 .footer__redes{
@@ -185,4 +185,169 @@ footer{
 
 .footer__redes li a img{
     padding: 0 15px;
+}
+
+.rankings__titulo{
+    text-align: center;
+    background-color: #69DFE2;
+}
+
+.rankings__img{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.torneos__titulo{
+    margin-top: 45px;
+    text-align: center;
+    background-color: #69DFE2;
+}
+
+.torneos__tabla{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.noticias__titulo{
+    text-align: center;
+    background-color: #69DFE2;
+    padding: 20px 0;
+}
+
+.noticias__carrousel{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    list-style: none;
+}
+
+.unoticias__videos{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alqynoticias__titulo{
+    text-align: center;
+    background-color: #69DFE2;
+    padding: 20px 0;
+    margin-top: 35px;
+}
+
+.container-alq{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+
+.container-alq__form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: #69DFE2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-alq__form input {
+    border-radius: 5px;
+}
+
+.container-alq__form select{
+    border-radius: 5px;
+}
+
+.container-paletas__form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 50%;
+}
+
+.container-paletas{
+    background-color: #22356D;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__subt{
+    display: inline-block;
+    background-color: #22356D;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.login__form label + input{
+    margin: 10px 0;
+}
+
+#logintitulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#linkregister{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.sucursales{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sucursales__flex{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.registerform{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.registerform label + input{
+    margin: 10px 0;
+}
+
+#contactdatos{
+    text-align: center;
+    background-color: #22356D;
+}
+
+.containerabout{
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutvideo{
+    flex-direction: row-reverse;
 }
